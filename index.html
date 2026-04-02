@@ -286,7 +286,7 @@ svg.selectAll("text")
     .append("text")
     .attr("x", d => {
         const [x, y] = path.centroid(d);
-        if (d.properties.name === "Greqia") return x - 100;
+        if (d.properties.name === "Greqia") return x - 150;
         return x;
     })
     .attr("y", d => {
