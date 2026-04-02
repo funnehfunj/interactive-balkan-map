@@ -286,12 +286,12 @@ svg.selectAll("text")
     .append("text")
     .attr("x", d => {
         const [x, y] = path.centroid(d);
-        if (d.properties.name === "Greqia") return x - 60;
+        if (d.properties.name === "Greqia") return x - 100;
         return x;
     })
     .attr("y", d => {
         const [x, y] = path.centroid(d);
-        if (d.properties.name === "Kroacia") return y - 50;
+        if (d.properties.name === "Kroacia") return y - 100;
         return y;
     })
     .attr("text-anchor", "middle")
