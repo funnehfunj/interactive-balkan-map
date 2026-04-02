@@ -11,7 +11,7 @@
 
         .country {
             stroke: #fff;
-            stroke-width: 4px;
+            stroke-width: 3px;
             cursor: pointer;
             transition: fill 0.3s;
         }
@@ -34,7 +34,7 @@
             position: absolute;
             top: 50px;
             right: 50px;
-            width: 600px;
+            width: 500px;
             background: white;
             border: 2px solid #333;
             border-radius: 10px;
@@ -43,7 +43,7 @@
         }
 
         #popup-inner {
-            font-size: 15px;
+            font-size: 20px;
             line-height: 1.4;
         }
 
@@ -295,7 +295,7 @@ svg.selectAll("text")
         return y;
     })
     .attr("text-anchor", "middle")
-    .attr("font-size", "15px")
+    .attr("font-size", "20px")
     .attr("font-weight", "bold")
     .text(d => d.properties.name);
 
